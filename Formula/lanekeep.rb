@@ -8,24 +8,24 @@
 class Lanekeep < Formula
   desc "Deterministic, AST-based architectural conformance checking"
   homepage "https://github.com/fmsouza/lanekeep"
-  version "0.8.1"
+  version "0.9.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/fmsouza/lanekeep/releases/download/v0.8.1/lanekeep-0.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "d9c9be16003625d8ee3f65f9e27a3276db0165a2fd572133afbb1d1cf2e17138"
+      url "https://github.com/fmsouza/lanekeep/releases/download/v0.9.0/lanekeep-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "955884e5170eeff55b756442f29abc472eac38daa43c44a6bfdd58d5405c9925"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fmsouza/lanekeep/releases/download/v0.8.1/lanekeep-0.8.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4aad0cbf49e17dc0473d16055978bffce26ce0b9737a8f6e6a8f7b769c876e85"
+      url "https://github.com/fmsouza/lanekeep/releases/download/v0.9.0/lanekeep-0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fa0d95cecc098d7b253c72e5e5f1da70fe8d5dae788ea3515644db595974aa3e"
     end
     on_intel do
-      url "https://github.com/fmsouza/lanekeep/releases/download/v0.8.1/lanekeep-0.8.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "800242612cc74a02a367c8fd0793c9d9ecddf57d78d072e98491b55bed416c33"
+      url "https://github.com/fmsouza/lanekeep/releases/download/v0.9.0/lanekeep-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "65b8df58562e5c05edb66f6cfa904479aed7fe326fc55b9abf55b037251b55b2"
     end
   end
 
